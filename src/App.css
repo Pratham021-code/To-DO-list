@@ -1,0 +1,91 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  padding: 0 16px;
+}
+
+h1 { text-align: center; }
+
+.task-input {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #1adc98;
+  border-radius: 6px;
+}
+
+.task-input button {
+  padding: 8px 16px;
+  background: #46e58e;
+  color: rgb(7, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-item {
+  border: 1px solid #0dbeb2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.task-item.completed {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.task-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 6px;
+}
+
+.time-info {
+  font-size: 13px;
+  color: #666;
+  margin: 2px 0;
+}
+
+.avg-time {
+  background: #044539;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.task-buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-buttons button:first-child {
+  background: #22c55e;
+  color: rgb(16, 1, 1);
+}
+
+.task-buttons button:last-child {
+  background: #ef4444;
+  color: rgb(0, 10, 3);
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+}
