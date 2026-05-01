@@ -1,6 +1,6 @@
 function TaskCompletionTime({ completedAt }) {
   if (!completedAt) {
-    return <p className="time-info">⏳ Not completed yet</p>;
+    return <p className="time-info"> Not completed yet</p>;
   }
 
   return (
