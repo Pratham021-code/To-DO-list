@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import TaskInput from "./components/TaskInput";
-import TaskList from "./components/TaskList";
-import AverageCompletionTime from "./components/AverageCompletionTime";
+import TaskInput from "./Components/TaskInput";
+import TaskList from "./Components/TaskList";
+import AverageCompletionTime from "./Components/AverageCompletionTime";
 import "./App.css";
 
 function App() {
